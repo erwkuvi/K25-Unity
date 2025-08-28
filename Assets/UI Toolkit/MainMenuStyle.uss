@@ -1,0 +1,112 @@
+:root {
+}
+
+.button {
+    font-size: 40px;
+    -unity-font-definition: url("project://database/Assets/TextMesh%20Pro/Fonts/GothamNarrow-Light.otf?fileID=12800000&guid=ea4b81cf41aecb94c9983226e7912d6e&type=3#GothamNarrow-Light");
+    color: rgb(255, 255, 255);
+    width: 300px;
+    align-self: center;
+    margin-top: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-left-color: rgb(119, 119, 119);
+    border-right-color: rgb(119, 119, 119);
+    border-top-color: rgb(119, 119, 119);
+    border-bottom-color: rgb(119, 119, 119);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    background-color: rgb(154, 154, 154);
+    background-size: 100% 100%;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    position: relative;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    height: 90px;
+}
+
+.button:hover {
+    font-size: 40px;
+    -unity-font-definition: url("project://database/Assets/TextMesh%20Pro/Fonts/GothamNarrow-Light.otf?fileID=12800000&guid=ea4b81cf41aecb94c9983226e7912d6e&type=3#GothamNarrow-Light");
+    color: rgb(64, 63, 65);
+    width: 300px;
+    align-self: center;
+    margin-top: 40px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-left-color: rgb(119, 119, 119);
+    border-right-color: rgb(119, 119, 119);
+    border-top-color: rgb(119, 119, 119);
+    border-bottom-color: rgb(119, 119, 119);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    background-color: rgb(255, 255, 255);
+    background-size: 100% 100%;
+    scale: 1.05 1.05;
+}
+
+.button:active {
+    font-size: 40px;
+    -unity-font-definition: url("project://database/Assets/TextMesh%20Pro/Fonts/GothamNarrow-Light.otf?fileID=12800000&guid=ea4b81cf41aecb94c9983226e7912d6e&type=3#GothamNarrow-Light");
+    color: rgb(255, 255, 255);
+    width: 300px;
+    align-self: center;
+    margin-top: 40px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-left-color: rgb(119, 119, 119);
+    border-right-color: rgb(119, 119, 119);
+    border-top-color: rgb(119, 119, 119);
+    border-bottom-color: rgb(119, 119, 119);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    background-color: rgb(64, 63, 65);
+    background-size: 100% 100%;
+    scale: 1.05 1.05;
+}
+
+.main-container {
+}
+
+.close {
+    background-image: url("project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-7384953405098038083&guid=fa2e97ffac0be084c8000e719c5059ac&type=3#Remove");
+    background-size: 16px 16px;
+    width: 16px;
+    height: 16px;
+    align-self: flex-end;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.logo-graphic {
+    background-image: url("project://database/Assets/Graphics/awz-logo.png?fileID=2800000&guid=99007ce917db01d4d888a4f4f3a116ff&type=3#awz-logo");
+    width: 128px;
+    height: 64px;
+    align-self: flex-start;
+    background-color: rgba(255, 255, 255, 0);
+    background-size: 128px 64px;
+    flex-grow: 0;
+    bottom: 10px;
+    position: absolute;
+    left: 10px;
+}

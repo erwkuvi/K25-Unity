@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=dd57659d10b1b134795b5261db684297&amp;type=3#MainMenuStyle" />
+    <ui:VisualElement name="MenuPavRoot" class="main-container" style="width: 600px; height: 600px; align-self: center; background-color: rgb(255, 255, 255); margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(93, 93, 93); border-right-color: rgb(93, 93, 93); border-top-color: rgb(93, 93, 93); border-bottom-color: rgb(93, 93, 93);">
+        <ui:Button name="CloseButton" class="close" />
+        <ui:Label text="Do you want to enter the Pavillion?" style="align-self: center; -unity-text-align: upper-center; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/TSaOf7__.ttf?fileID=12800000&amp;guid=71867f63b8ef3594293e2d938595530a&amp;type=3#TSaOf7__&quot;); font-size: 45px; flex-grow: 0; white-space: pre-wrap; margin-top: 9px; margin-right: 9px; margin-bottom: 9px; margin-left: 9px; color: rgb(214, 8, 16);" />
+        <ui:Button text="Yes" name="YesButton" class="button" />
+        <ui:Button text="No" name="NoButton" class="button" />
+        <ui:VisualElement name="Logo" class="logo-graphic" />
+    </ui:VisualElement>
+</ui:UXML>

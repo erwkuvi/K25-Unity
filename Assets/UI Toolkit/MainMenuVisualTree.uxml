@@ -1,0 +1,14 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=dd57659d10b1b134795b5261db684297&amp;type=3#MainMenuStyle" />
+    <ui:VisualElement name="MenuRoot" class="main-container" style="flex-grow: 0; background-color: rgba(255, 255, 255, 0.61); width: 600px; height: 800px; position: relative; align-self: center; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px; border-left-color: rgb(112, 112, 112); border-right-color: rgb(112, 112, 112); border-top-color: rgb(112, 112, 112); border-bottom-color: rgb(112, 112, 112); border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px;">
+        <ui:Button name="CloseButton" class="close" style="background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-7384953405098038083&amp;guid=fa2e97ffac0be084c8000e719c5059ac&amp;type=3#Remove&quot;); background-size: 16px 16px; width: 24px; height: 24px; align-self: flex-end; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;" />
+        <ui:Label text="Menu" name="Title" parse-escape-sequences="true" style="-unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/TSaOf7__%20SDF.asset?fileID=11400000&amp;guid=4157c44e802cbb9489b3d11cc2def3a0&amp;type=2#TSaOf7__ SDF&quot;); font-size: 100px; -unity-text-align: middle-center; color: rgb(220, 0, 9); width: auto; height: 30%;" />
+        <ui:VisualElement style="flex-grow: 1; height: 30%; align-self: auto; justify-content: center;">
+            <ui:Button text="Resume" name="ResumeButton" class="button" />
+            <ui:Button text="Quit" name="QuitButton" class="button" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; height: 30%;">
+            <ui:VisualElement name="AWZLogo" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/Graphics/awz-logo.png?fileID=2800000&amp;guid=99007ce917db01d4d888a4f4f3a116ff&amp;type=3#awz-logo&quot;); width: 180px; height: 90px; align-self: flex-start; justify-content: flex-start; align-content: auto; left: 1px; bottom: 1px; position: absolute;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
